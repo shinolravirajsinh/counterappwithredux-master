@@ -1,0 +1,27 @@
+.counter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: rgb(48, 48, 48);
+
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container span{
+  font-size: 50px;
+  color: yellow;
+}
+.container button{
+  border: none;
+  padding: 12px 30px;
+  margin: 4px;
+}
